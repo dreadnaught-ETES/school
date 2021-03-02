@@ -1,0 +1,16 @@
+import math
+weight=50
+kmwheat=1*math.pow(10,6)
+kmsq=1*math.pow(10,12)
+SAO=254806
+result=(math.pow(2,64)-1)
+print("In total, there would be",result,"pieces of grain. That's a whole lot of grain, bro...")
+print("The whole amount would weigh a crushing",result*50,"kilograms. That's heavy enough to crush most things...")
+print("The total grains would drown the whole state of Oregon in a sea of grain measuring",((result/kmsq)-SAO)/kmwheat,"kilometers high...think about that for a minute...")
+#This was actually a challenge to figure out the first and third.
+#The first was the hardest...sure i could do the slow way...not the point though and too much work...
+#The total squares is the total amount of times the grain is doubled...thats the exponent...
+#you have to subtract 1 from the whole thing because the 1st square out the 64 has just one grain...
+#at first i tried doing a += step from start thing...nope. bad idea. didnt work. 
+#google was my best friend...the hardest part is realizing...
+#that this was a coding project...not a math project and it was ok to know the answer first...
